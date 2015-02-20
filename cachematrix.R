@@ -21,7 +21,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## cacheSolve will compute the inverse of the matrix created
 ##    with makeCacheMatrix.
 ## If the inverse has already been calculated, and remains unchanged,
-##    then cacheSolve will retrieved the cahced inverse.
+##    then cacheSolve will retrieved the cached inverse.
 
 cacheSolve <- function(x, ...) {
   invr <- x$getInverse()
